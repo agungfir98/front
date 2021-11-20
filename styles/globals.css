@@ -1,16 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
 html,
 body {
+  color: #ffff !important;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background-color: rgb(51, 55, 58);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif !important;
+}
+::selection{
+  background: rgb(109, 81, 153);
+  color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar{
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(245, 225, 136);
+}
+.main{
+  background-color: rgb(51, 55, 58);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: rgb(245, 225, 136) !important;
+  text-decoration:rgb(186, 205, 219);
 }
 
 * {
   box-sizing: border-box;
+}
+/* .picskill{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+} */
+.latar{
+  background-color: rgba(51, 55, 58, 0.927);
+  backdrop-filter: blur(2px);
+}
+.kartu{
+  box-shadow: 0 4px 8px 4px rgba(255, 255, 255, 0.2);
+  transition: ease;
+}
+.kartu:hover{
+  box-shadow: 0 8px 16px 4px rgba(255, 255, 255, 0.2);
 }
