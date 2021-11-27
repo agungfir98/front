@@ -5,7 +5,7 @@ body {
   color: #ffff !important;
   font-weight: bold;
   letter-spacing: 0.5px;
-  background-color: rgb(51, 55, 58);
+  background-color: rgb(51, 55, 58)!important;
   padding: 0;
   margin: 0;
   margin-top: 50px;
@@ -37,7 +37,7 @@ a {
   background-color: rgba(255, 255, 255, 0.2) !important;
 } */
 .latar{
-  background-color: rgba(51, 55, 58, 0.927);
+  background-color: rgba(51, 55, 58, 0.927) !important;
   backdrop-filter: blur(2px);
 }
 .kartu{
